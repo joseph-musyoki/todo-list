@@ -1,0 +1,74 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(design/desktop-design-dark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-class{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    font-size: 37px;
+    background-color: rgb(32, 30, 30);
+    width:650px ;
+    height: 500px;
+    line-height: 60px;
+}
+ul li{
+    list-style-type:none;
+    text-align:left;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.state{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    color: rgb(107, 114, 121);
+
+}
+.all{
+    color: blue;
+    cursor: pointer;
+}
+.active:hover{
+cursor: pointer;
+color: whitesmoke;
+}
+
+.completed:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 96%);
+    }
+  .clear:hover{
+        cursor: pointer;
+        color: hsl(0, 0%, 96%);
+        }
+  .Active:hover{
+            cursor: pointer;
+            color: hsl(0, 0%, 96%);
+            }
+h2{
+    text-align: center;
+    margin-top: 5px;
+}
+#cross{
+    margin-left: 70px;
+}
+.add-todo{
+    margin-left: 70px;
+}
+.add-todo input{
+    width: 250px;
+    height: 100x;
+}
+#radio:hover{
+cursor: pointer;
+}

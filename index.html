@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <form class="form-class">
+  <h2>Todo</h2> 
+   
+     <div class="add-todo"> <input type="text" id="input" placeholder="Create a new to do" ><button onclick="addFunc">add</button></div>
+     <div class="list"><ul>
+      <li><input type="radio" id="radio">Jog around the field <span id="cross">x</span></li><hr>
+      <li><input type="radio" id="radio">10 minutes meditation<span id="cross">x</span></li><hr>
+      <li><input type="radio" id="radio">Read for one hour<span id="cross"></span>x</li><hr>
+      <li><input type="radio" id="radio">Pick up gloceries<span id="cross"></span>x</li><hr>
+      <li><input type="radio" id="radio">Complete Todo App Mentor<span id="cross">x</span></li><hr>
+     </ul>
+    </div>
+    <div class="state">
+      <div>5 items left</div>
+      <div class="all">all</div>
+      <div class="Active">Active</div>
+      <div class="completed">completed</div>
+      <div class="clear">clear completed</div>
+    </div>
+    </form>
+    <h2> Drag and drop to reorder list</h2>
+  
+</div>
+<script src="script.js"></script>
+</body>
+</html>
